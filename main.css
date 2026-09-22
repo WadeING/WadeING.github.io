@@ -1,0 +1,191 @@
+/* Tag Selectors */
+
+body {
+    background-color: #f5f0e8;
+    color: #2d2926;
+    font-family: "Times New Roman", Times, serif;
+
+    margin: 0;
+    padding: 40px;
+
+    text-align: left;
+}
+
+
+a {
+    color: #5b3a42;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+ul {
+    padding-left: 25px;
+}
+
+
+
+
+.portfolio-header {
+    background-color: #3f3435;
+    color: #f8f3eb;
+
+    border: 3px solid #241e1f;
+    padding: 25px;
+    margin-bottom: 35px;
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+
+.main-navigation {
+    margin-top: 20px;
+}
+
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+
+.portfolio-main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    max-width: 900px;
+}
+
+
+
+
+.portfolio-section {
+    padding: 25px;
+
+    border-width: 2px;
+    border-style: solid;
+
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+/* Category Titles */
+
+.section-title {
+    margin-bottom: 20px;
+
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
+
+
+#about-me {
+    background-color: #eee2d2;
+    border-color: #8b684d;
+}
+
+#about-me .section-title {
+    color: #6d4933;
+}
+
+
+
+
+#education {
+    background-color: #dce3df;
+    border-color: #63766d;
+}
+
+#education .section-title {
+    color: #40564c;
+}
+
+
+
+
+#jobs {
+    background-color: #dce2e8;
+    border-color: #68788a;
+}
+
+#jobs .section-title {
+    color: #42566c;
+}
+
+
+
+
+#extra-information {
+    background-color: #e8dddd;
+    border-color: #88676d;
+}
+
+#extra-information .section-title {
+    color: #68444c;
+}
+
+
+
+
+#writing-links {
+    background-color: #e5dfd2;
+    border-color: #80735d;
+}
+
+#writing-links .section-title {
+    color: #5f513b;
+}
+
+
+
+
+.contact-information {
+    max-width: 850px;
+
+    background-color: #373334;
+    color: #f5efe6;
+
+    border: 2px solid #211e1f;
+
+    padding: 25px;
+    margin-top: 25px;
+
+    font-size: 18px;
+}
+
+
+.contact-information .section-title {
+    color: #f0d8bc;
+}
+
+
+
+
+.education-list,
+.job-list,
+.writing-list,
+.contact-list {
+    line-height: 1.8;
+}
